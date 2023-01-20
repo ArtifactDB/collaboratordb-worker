@@ -9,4 +9,7 @@ import * as utils from "./utils.js";
 // may throw HttpErrors if the names are 'invalid' (for some arbitrary
 // definition of validity). Return value is ignored.
 export function checkProjectVersionName(project, version) {
+    if (!project.match(/^[a-zA-Z0-9_]+-[a-zA-Z0-9_]+-[0-9]{4}/)) {
+        throw new utils.HttpError("invalid project name '" + project + "'", 400);
+    }
 }
