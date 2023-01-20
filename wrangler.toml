@@ -13,6 +13,6 @@ preview_bucket_name = 'collaboratordb' # ~> Name of the bucket for wrangler dev.
 [vars]
 CF_ACCOUNT_ID = "bfb2e522e0b245720424784fcf7c04c0" # ~> Account ID. Should be the same as 'account_id'.
 R2_BUCKET_NAME = 'collaboratordb' # ~> Name of the bucket. Should be the same as 'r2_buckets.bucket_name'.
-GITHUB_CI_REPOSITORY = 'ArtifactDB/collaboratordb-actions' # ~> Name of the GitHub repository to use for CI/CD.
+GITHUB_CI_REPOSITORY = 'CollaboratorDB/CollaboratorDB-actions' # ~> Name of the GitHub repository to use for CI/CD.
 GITHUB_USER_AGENT = 'collaboratordb-worker' # ~> User agent for GitHub API requests.
-ALLOWED_UPLOADERS = 'ArtifactDB-bot,LTLA' # ~> GitHub users or organizations that are allowed to upload new projects.
+ALLOWED_UPLOADERS = 'ArtifactDB-bot,CollaboratorDB' # ~> GitHub users or organizations that are allowed to upload new projects.
