@@ -15,4 +15,5 @@ CF_ACCOUNT_ID = "bfb2e522e0b245720424784fcf7c04c0" # ~> Account ID. Should be th
 R2_BUCKET_NAME = 'collaboratordb' # ~> Name of the bucket. Should be the same as 'r2_buckets.bucket_name'.
 GITHUB_CI_REPOSITORY = 'CollaboratorDB/CollaboratorDB-actions' # ~> Name of the GitHub repository to use for CI/CD.
 GITHUB_USER_AGENT = 'collaboratordb-worker' # ~> User agent for GitHub API requests.
+ADMIN_ACCOUNTS = 'LTLA' # ~> GitHub users or organizations that can act as administrators.
 ALLOWED_UPLOADERS = 'ArtifactDB-bot,CollaboratorDB' # ~> GitHub users or organizations that are allowed to upload new projects.
